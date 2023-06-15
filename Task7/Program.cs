@@ -24,6 +24,6 @@ else
     max = b;
 }
 
-    Console.WriteLine("Максимальное число = " + max );
+    secondValu
 
 
