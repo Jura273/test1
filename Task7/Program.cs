@@ -24,6 +24,5 @@ else
     max = b;
 }
 
-    secondValu
 
 
