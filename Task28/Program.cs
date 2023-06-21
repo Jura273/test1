@@ -4,6 +4,7 @@
 // 5 -> 1, 8, 27, 64, 125
 
 
+
 int num = Promt ("Введите число N: ");
 Cube (num);
 int Promt(string message) 
