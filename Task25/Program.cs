@@ -10,7 +10,7 @@ int i = 1;
 int Promt(string message) 
 {
     Console.Write(message);
-    int number = int.Parse(Console.ReadLine());
+    int number = int.Parse(Console.ReadLine()!);
     return number;
 }
 while (i<=number)
@@ -20,12 +20,7 @@ while (i<=number)
 }
 int num = Promt ("введите число: ");
 Square (num);
-int Promt(string message) 
-{
-    Console.Write(message);
-    int number = int.Parse(Console.ReadLine());
-    return number;
-}
+
 
 void Square(int number)
 {

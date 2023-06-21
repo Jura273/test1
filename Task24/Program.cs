@@ -13,7 +13,7 @@ int YB =  Promt ("введите координаты точка yB: ");
 int Promt(string message) 
 {
     Console.Write(message);
-    int number = int.Parse(Console.ReadLine());
+    int number = int.Parse(Console.ReadLine()!);
     return number;
 }
 
@@ -25,4 +25,4 @@ Console.WriteLine(AB);
 
 
 
-double AB = Math.Sqrt((XB-XA)*(XB-XA)+(YB-YA)*(YB-YA));
+AB = Math.Sqrt((XB-XA)*(XB-XA)+(YB-YA)*(YB-YA));

@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
+﻿
 string mess = "Введите число: ";
 int number1 = Prompt(mess);
 
