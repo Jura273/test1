@@ -1,7 +1,5 @@
-﻿// Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
+﻿// Напишите программу, которая по номеру четверти определяет диапазон значений х и у;
 
-// A (3,6); B (2,1) -> 5,09 
-// A (7,-5); B (1,-1) -> 7,21
 
 
 int number = Prompt("Введите номер четверти: ");
@@ -9,7 +7,7 @@ FindNumberQuarter(number);
 int Prompt(string message)
 {
     Console.Write(message);
-    int number = int.Parse(Console.ReadLine());
+    int number = int.Parse(Console.ReadLine()!);
     return number;
 }
 
