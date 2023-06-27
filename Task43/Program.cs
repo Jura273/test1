@@ -8,7 +8,7 @@ using System;
 class HelloWorld {
   static void Main()
   {
-      
+
         double [] arr=GetArrayDouble(20,-1000,1000);
         PrintArrayDouble(arr);
         double result=distace(arr);
@@ -16,7 +16,7 @@ class HelloWorld {
     }
   static double distace(double[] arr)
   {
-      
+
         double maxValue=arr[0];
         double minValue=arr[0];
       foreach(int num in arr)//ноль не четноё так как в реальности счёт с 1
@@ -31,7 +31,7 @@ class HelloWorld {
       }
       return maxValue-minValue;
   }
-  
+
   static void PrintArrayDouble(double[] arr)
     {
             foreach (double el in arr)
